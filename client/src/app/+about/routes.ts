@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router'
-import { AboutFollowsComponent } from '@app/+about/about-follows/about-follows.component'
 import { AboutPeertubeComponent } from '@app/+about/about-peertube/about-peertube.component'
 import { CustomMarkupService } from '@app/shared/shared-custom-markup/custom-markup.service'
 import { DynamicElementService } from '@app/shared/shared-custom-markup/dynamic-element.service'
@@ -32,16 +31,6 @@ export default [
         data: {
           meta: {
             title: $localize`About PeerTube`
-          }
-        }
-      },
-
-      {
-        path: 'follows',
-        component: AboutFollowsComponent,
-        data: {
-          meta: {
-            title: $localize`About this platform's network`
           }
         }
       },
