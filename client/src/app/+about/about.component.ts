@@ -38,19 +38,14 @@ export class AboutComponent implements OnInit {
 
     this.menuEntries = [
       {
-        label: $localize`Platform`,
+        label: $localize`IslamHaus.TV`,
         routerLink: '/about/instance',
         pluginSelectorId: 'about-menu-instance'
       },
       {
-        label: $localize`PeerTube`,
+        label: $localize`Über uns`,
         routerLink: '/about/peertube',
         pluginSelectorId: 'about-menu-peertube'
-      },
-      {
-        label: $localize`Network`,
-        routerLink: '/about/follows',
-        pluginSelectorId: 'about-menu-network'
       }
     ]
   }
