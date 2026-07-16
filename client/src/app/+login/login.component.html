@@ -18,9 +18,9 @@
       </h5>
 
       @if (signupAllowed) {
-        <p i18n>
-          {{ instanceName }} allows registration. However, be careful to check the <a class="link-primary terms-anchor d-inline" (click)="onTermsClick($event, instanceInformation)" href="/about/instance#terms">Terms</a><a class="terms-link" target="_blank" routerLink="/about/instance">Terms</a> before creating an account.
-        </p>
+<p>  
+  {{ instanceName }} erlaubt die Registrierung. Bitte lies jedoch die <a class="link-primary terms-anchor d-inline" (click)="onTermsClick($event, instanceInformation)" href="/about/instance#terms">Nutzungsbedingungen</a><a class="terms-link" target="_blank" routerLink="/about/instance">Nutzungsbedingungen</a>, bevor du ein Konto erstellst.
+</p>
       } @else {
         <p i18n>
           {{ instanceName }} doesn't allow for user registration. You may check the <a class="link-primary terms-anchor d-inline" (click)="onTermsClick($event, instanceInformation)" href="/about/instance#terms">Terms</a><a class="terms-link" target="_blank" routerLink="/about/instance">Terms</a> for more details or find a PeerTube platform that gives you the possibility to sign up for an account and upload your videos there.
