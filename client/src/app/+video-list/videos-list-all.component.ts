@@ -106,11 +106,10 @@ export class VideosListAllComponent implements OnInit, OnDestroy, DisableForReus
   private buildTitle (scope: VideoFilterScope = this.defaultScope, sort: VideoSortField = this.defaultSort) {
     const sanitizedSort = this.getSanitizedSort(sort)
 
-    if (scope === 'local') {
-      this.title = $localize`Startseite`
-      return
+    if (scope === 'local') {  
+    this.title = 'Startseite'  // ← 2 Leerzeichen Einrückung (wie return)  
+      return  
     }
-
     if (sanitizedSort === 'publishedAt') {
       this.title = $localize`Recently added`
       return
