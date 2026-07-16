@@ -107,7 +107,7 @@ export class VideosListAllComponent implements OnInit, OnDestroy, DisableForReus
     const sanitizedSort = this.getSanitizedSort(sort)
 
     if (scope === 'local') {
-      this.title = $localize`Local videos`
+      this.title = $localize`Startseite`
       return
     }
 
