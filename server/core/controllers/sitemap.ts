@@ -58,13 +58,13 @@ async function getSitemap (req: express.Request, res: express.Response) {
 async function getSitemapVideoChannelUrls () {
   const rows = await VideoChannelModel.listLocalsForSitemap('createdAt')
 
-return rows.map(channel => ({ url: channel.getClientUrl(), lastmod: new Date().toISOString() }))
+return rows.map(channel => ({ url: channel.getClientUrl(), lastmod: (channel as any).updatedAt?.toISOString() }))
 }
 
 async function getSitemapAccountUrls () {
   const rows = await AccountModel.listLocalsForSitemap('createdAt')
 
-return rows.map(account => ({ url: account.getClientUrl(), lastmod: new Date().toISOString() }))
+return rows.map(account => ({ url: account.getClientUrl(), lastmod: (account as any).updatedAt?.toISOString() }))
 }
 
 async function getSitemapLocalVideoUrls () {
