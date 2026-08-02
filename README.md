@@ -5,7 +5,7 @@
 </h1>
 
 
-![Last Commit](https://github.com/Chocobozzz/PeerTube/compare/master...valeron90:PeerTube:master) July
+![Last changes ](https://github.com/Chocobozzz/PeerTube/compare/master...valeron90:PeerTube:master) July
 
 
 <p align=center>
