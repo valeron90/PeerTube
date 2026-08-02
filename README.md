@@ -3,7 +3,7 @@
     <img src="https://joinpeertube.org/img/brand.png" alt="PeerTube">
   </a>
 </h1>
-Last changes July This is not the Original Peertube Code (https://github.com/Chocobozzz/PeerTube/tree/master) Original Peertube
+Last changes July This is not the Original Peertube Code  Original Peertube Code (https://github.com/Chocobozzz/PeerTube/tree/master) 
 <p align=center>
   <strong><a href="https://joinpeertube.org">Website</a></strong>
   | <strong><a href="https://joinpeertube.org/instances">Join an instance</a></strong>
