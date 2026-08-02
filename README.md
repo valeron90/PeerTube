@@ -4,6 +4,10 @@
   </a>
 </h1>
 
+
+![Last Commit](https://github.com/Chocobozzz/PeerTube/compare/master...valeron90:PeerTube:master) July
+
+
 <p align=center>
   <strong><a href="https://joinpeertube.org">Website</a></strong>
   | <strong><a href="https://joinpeertube.org/instances">Join an instance</a></strong>
